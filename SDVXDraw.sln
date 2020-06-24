@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDVXDraw", "SDVXDraw\SDVXDraw.csproj", "{C02F843D-FB07-43BB-B149-B9B56FC10099}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDVXDraw", "SDVXDraw\SDVXDraw.csproj", "{C02F843D-FB07-43BB-B149-B9B56FC10099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDVXDataAccess", "SDVXDataAccess\SDVXDataAccess.csproj", "{0EC0178D-594E-4526-88A8-D5007E4FFF6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDVXCore", "SDVXCore\SDVXCore.csproj", "{A15B3596-0833-483C-B04E-F6D354F5DC16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C02F843D-FB07-43BB-B149-B9B56FC10099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C02F843D-FB07-43BB-B149-B9B56FC10099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C02F843D-FB07-43BB-B149-B9B56FC10099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC0178D-594E-4526-88A8-D5007E4FFF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC0178D-594E-4526-88A8-D5007E4FFF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC0178D-594E-4526-88A8-D5007E4FFF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC0178D-594E-4526-88A8-D5007E4FFF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15B3596-0833-483C-B04E-F6D354F5DC16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15B3596-0833-483C-B04E-F6D354F5DC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15B3596-0833-483C-B04E-F6D354F5DC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15B3596-0833-483C-B04E-F6D354F5DC16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
