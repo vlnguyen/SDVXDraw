@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SDVXCore.Types.Models;
 
-namespace SDVXDataAccess
+namespace SDVXDataAccess.Infrastructure
 {
     public class SDVXContext : DbContext
     {

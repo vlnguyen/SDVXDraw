@@ -3,9 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace SDVXCore.Types.Models
 {
-    public class Chart
+    public class Chart : BaseEntity
     {
-        public int ChartId { get; set; }
         public DifficultyType DifficultyType { get; set; }
         public int Difficulty { get; set; }
         [StringLength(255)]

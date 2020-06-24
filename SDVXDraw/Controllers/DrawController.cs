@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SDVXCore.Types.Models;
-using SDVXDataAccess;
-using System.Collections.Generic;
-using System.Linq;
+using SDVXCore.Interfaces.Managers;
+using SDVXCore.Types.Draw;
 
 namespace SDVXDraw.Controllers
 {
@@ -10,10 +8,16 @@ namespace SDVXDraw.Controllers
     [ApiController]
     public class DrawController : Controller
     {
-        private readonly SDVXContext _db;
-        public DrawController(SDVXContext db)
+        private readonly IDrawManager _drawManager;
+        public DrawController(IDrawManager drawManager)
         {
-            _db = db;
+            _drawManager = drawManager;
+        }
+
+        [HttpPost]
+        public DrawResponse GetDraw([FromBody] DrawRequest req)
+        {
+            return _drawManager.Draw(req);
         }
     }
 }
