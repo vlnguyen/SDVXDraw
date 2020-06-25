@@ -2,7 +2,7 @@
 
 namespace SDVXCore.Interfaces.Managers
 {
-    public interface IDrawManager
+    public interface IChartManager
     {
         DrawResponse Draw(DrawRequest req);
     }

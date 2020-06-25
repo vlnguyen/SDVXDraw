@@ -8,7 +8,7 @@ namespace Microsoft.Extensions.DependencyInjection
     {
         public static IServiceCollection AddManagers(this IServiceCollection services)
         {
-            services.AddTransient<IDrawManager, DrawManager>();
+            services.AddTransient<IChartManager, ChartManager>();
             return services;
         }
     }

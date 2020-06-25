@@ -8,11 +8,11 @@ using System.Linq;
 
 namespace SDVXManagers
 {
-    public class DrawManager : IDrawManager
+    public class ChartManager : IChartManager
     {
         private readonly ISongEngine _songEngine;
         private readonly IChartEngine _chartEngine;
-        public DrawManager(ISongEngine songEngine, IChartEngine chartEngine)
+        public ChartManager(ISongEngine songEngine, IChartEngine chartEngine)
         {
             _songEngine = songEngine;
             _chartEngine = chartEngine;
