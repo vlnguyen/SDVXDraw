@@ -10,11 +10,9 @@ namespace SDVXManagers
 {
     public class ChartManager : IChartManager
     {
-        private readonly ISongEngine _songEngine;
         private readonly IChartEngine _chartEngine;
-        public ChartManager(ISongEngine songEngine, IChartEngine chartEngine)
+        public ChartManager(IChartEngine chartEngine)
         {
-            _songEngine = songEngine;
             _chartEngine = chartEngine;
         }
 

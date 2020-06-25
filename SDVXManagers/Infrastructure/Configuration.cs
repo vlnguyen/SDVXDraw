@@ -9,6 +9,7 @@ namespace Microsoft.Extensions.DependencyInjection
         public static IServiceCollection AddManagers(this IServiceCollection services)
         {
             services.AddTransient<IChartManager, ChartManager>();
+            services.AddTransient<ISongManager, SongManager>();
             return services;
         }
     }
