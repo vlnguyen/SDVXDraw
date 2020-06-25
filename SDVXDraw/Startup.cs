@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +20,8 @@ namespace SDVXDraw
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDataAccessHandlers(Configuration.GetConnectionString("SoundVoltexSongsDb"));
+            services.AddEngines();
+            services.AddManagers();
             services.AddControllersWithViews();
 
             // In production, the React files will be served from this directory

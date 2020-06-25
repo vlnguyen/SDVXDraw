@@ -22,6 +22,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SDVXDataAccess\SDVXDataAccess.csproj" />
+    <ProjectReference Include="..\SDVXEngines\SDVXEngines.csproj" />
+    <ProjectReference Include="..\SDVXManagers\SDVXManagers.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

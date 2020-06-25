@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDVXDataAccess", "SDVXDataA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDVXCore", "SDVXCore\SDVXCore.csproj", "{A15B3596-0833-483C-B04E-F6D354F5DC16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDVXManagers", "SDVXManagers\SDVXManagers.csproj", "{0FB10C2B-C610-4657-8FBB-E7566A762139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDVXEngines", "SDVXEngines\SDVXEngines.csproj", "{A30F96CD-A729-457A-A4A3-C2351A704F97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{A15B3596-0833-483C-B04E-F6D354F5DC16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A15B3596-0833-483C-B04E-F6D354F5DC16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A15B3596-0833-483C-B04E-F6D354F5DC16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB10C2B-C610-4657-8FBB-E7566A762139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB10C2B-C610-4657-8FBB-E7566A762139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB10C2B-C610-4657-8FBB-E7566A762139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB10C2B-C610-4657-8FBB-E7566A762139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30F96CD-A729-457A-A4A3-C2351A704F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30F96CD-A729-457A-A4A3-C2351A704F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30F96CD-A729-457A-A4A3-C2351A704F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30F96CD-A729-457A-A4A3-C2351A704F97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

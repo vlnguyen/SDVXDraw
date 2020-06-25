@@ -1,25 +1,15 @@
 ﻿using SDVXCore.Enums;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace SDVXCore.Types.Models
+namespace SDVXCore.Types.Draw
 {
-    public class Song : BaseEntity
+    public class DrawCard
     {
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
-        public new int Id { get; set; }
-        [StringLength(255)]
+        public int SongId { get; set; }
         public string Label { get; set; }
-        [StringLength(255)]
         public string TitleName { get; set; }
-        [StringLength(255)]
         public string TitleYomigana { get; set; }
-        [StringLength(255)]
         public string ArtistName { get; set; }
-        [StringLength(255)]
         public string ArtistYomigana { get; set; }
-        [StringLength(255)]
         public string Ascii { get; set; }
         public int BpmMax { get; set; }
         public int BpmMin { get; set; }
@@ -27,10 +17,17 @@ namespace SDVXCore.Types.Models
         public int Genre { get; set; }
         public GameVersion Version { get; set; }
         public InfVersion InfVersion { get; set; }
-        [StringLength(255)]
         public string RemywikiUrl { get; set; }
-        [StringLength(255)]
-
-        public virtual ICollection<Chart> Charts { get; set; }
+        public int ChartId { get; set; }
+        public DifficultyType DifficultyType { get; set; }
+        public int Difficulty { get; set; }
+        public string Illustrator { get; set; }
+        public string Effector { get; set; }
+        public int Price { get; set; }
+        public LimitType Limit { get; set; }
+        public JacketMaskType JacketMask { get; set; }
+        public string JacketFilename { get; set; }
+        public string DifficultyLabel { get; set; }
+        public string DifficultyAcronym { get; set; }
     }
 }
