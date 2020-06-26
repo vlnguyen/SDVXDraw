@@ -146,10 +146,7 @@ export default class DrawFilters extends Component<IDrawFiltersProps, IDrawFilte
                             <Button onClick={onClear}>Clear</Button>
                         </Col>
                     </Row>
-                </Container>
-
-                <Container>
-                    <Collapse isOpen={shouldShowFilters} navbar>
+                    <Collapse isOpen={shouldShowFilters}>
                         <Form>
                             <Row form>
                                 <Col sm={4}>

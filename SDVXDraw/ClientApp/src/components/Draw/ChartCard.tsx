@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons'
 import { JACKETS_URL } from "../../utilities/constants";
 import { gameVersionToString } from "../../utilities/utilities";
-import { ChartStatus } from "../../utilities/enums";
 import './ChartCard.css';
 
 interface IChartCardProps {
@@ -40,7 +39,7 @@ export class ChartCard extends React.Component<IChartCardProps, IChartCardState>
                             <FontAwesomeIcon icon={faCheck}/>
                         </Button>
                     }
-                    {chart.status !== ChartStatus.PROTECTED && 
+                    {!chart.isProtected() && 
                         <Button color={chart.isProtected() ? undefined : "danger"} onClick={onVetoClicked}>
                             <FontAwesomeIcon icon={faTimes}/>
                         </Button>
