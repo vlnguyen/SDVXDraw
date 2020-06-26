@@ -1,0 +1,65 @@
+.ChartCard-ChartTitle {
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+.ChartCard-JacketVetoed {
+    filter: grayscale(100%) blur(2px);
+}
+
+.ChartCard-PopoverBody label {
+    font-weight: bold;
+}
+
+.ChartCard-DifficultyDisplay {
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ChartCard-DifficultyDisplay-NOV {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+}
+
+.ChartCard-DifficultyDisplay-ADV {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.ChartCard-DifficultyDisplay-EXH {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.ChartCard-DifficultyDisplay-MXM {
+    background-color: gray;
+    border-color: gray;
+    color: white;
+}
+
+.ChartCard-DifficultyDisplay-INF {
+    background-color: magenta;
+    border-color: magenta;
+    color: white;
+}
+
+.ChartCard-DifficultyDisplay-GRV {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}
+
+.ChartCard-DifficultyDisplay-HVN {
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.ChartCard-DifficultyDisplay-VVD {
+    background-color: rgb(245, 42, 110);
+    border-color: rgb(245, 42, 110);
+    color: white;
+}
